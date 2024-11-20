@@ -28,13 +28,15 @@ This is a web scraper application built using Python, Streamlit, and Altair. It 
 
 ### Getting Started
 
-1. Install Docker: Follow the instructions for your operating system to install Docker.
 ``` 
+1. Install Docker: Follow the instructions for your operating system to install Docker.
+
+ docker build -t ai-web-scraper .
+
+ docker run -p 8501:8501 ai-web-scraper
+
 2. Clone the repository:
 
-docker build -t ai-web-scraper .
-docker run -p 8501:8501 ai-web-scraper
+ git clone https://github.com/your-username/ai-web-scraper.git
 
-```bash
-git clone https://github.com/your-username/ai-web-scraper.git
-cd ai-web-scraper
+ cd ai-web-scraper
