@@ -20,23 +20,16 @@ This is a web scraper application built using Python, Streamlit, and Altair. It 
 
 8. Test and debug: Test the application locally to ensure it functions correctly and handles edge cases.
 
-9. Deploy the application: Deploy the Docker image to a container orchestration platform (e.g., Kubernetes) or a cloud provider (e.g., AWS, GCP).
-
-10. Monitor and maintain: Monitor the application's performance, handle errors, and update dependencies as needed.
 
 ## User Documentation
 
 ### Getting Started
 
 ``` 
-1. Install Docker: Follow the instructions for your operating system to install Docker.
-
- docker build -t ai-web-scraper .
-
- docker run -p 8501:8501 ai-web-scraper
-
-2. Clone the repository:
+1. Clone the repository:
 
  git clone https://github.com/your-username/ai-web-scraper.git
 
  cd ai-web-scraper
+
+ streamlit run main.py
