@@ -1,35 +1,26 @@
-# AI Web Scraper
+# AI Scraper
 
-This is a web scraper application built using Python, Streamlit, and Altair. It allows users to scrape a website and extract specific content based on their input.
+## Project Description
+AI Scraper is a Python-based project designed to scrape data from various web sources using artificial intelligence techniques. The project aims to provide an efficient way to gather and process information for analysis or further use. By leveraging advanced scraping methods and AI algorithms, this tool can extract meaningful insights from unstructured data available on the web.
 
-## Project Process
+The primary goal of the AI Scraper is to automate the data collection process, making it easier for researchers, analysts, and developers to access large volumes of information without manual intervention. This project can be particularly useful for tasks such as market research, sentiment analysis, and data mining.
 
-1. Design: Define the project requirements, including the desired functionality and user interface.
+## Features
+- **Web Scraping**: Efficiently scrape data from multiple websites, handling various HTML structures and formats.
+- **Data Processing**: Clean and preprocess the scraped data to ensure it is ready for analysis.
+- **AI Integration**: Utilize AI models to analyze the collected data, providing insights and predictions based on the information gathered.
+- **Customizable**: Easily modify scraping parameters and data processing techniques to suit specific project needs.
 
-2. Set up the development environment: Install Docker, Python, and any necessary dependencies.
+## Installation
+To set up the project, follow these steps:
 
-3. Create a Dockerfile: Define the Docker image for the application, including the base image, dependencies, and runtime configuration.
-
-4. Build the Docker image: Use the Dockerfile to build a Docker image of the application.
-
-5. Create a Streamlit app: Develop the main Streamlit application file (`main.py`) that handles user input, scraping, and parsing.
-
-6. Implement web scraping logic: Write functions to scrape the website, extract specific content, and clean the data.
-
-7. Implement parsing logic: Integrate a language model (e.g., Ollama) to parse the scraped content based on user input.
-
-8. Test and debug: Test the application locally to ensure it functions correctly and handles edge cases.
-
-
-## User Documentation
-
-### Getting Started
-
-``` 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahmoudsallem/AI-web-scraper.git
+   
+   cd AI-web-scraper 
 
- git clone https://github.com/your-username/ai-web-scraper.git
-
- cd ai-web-scraper
-
- streamlit run main.py
+   streamlit run main.py
+   
+   ```
+   
